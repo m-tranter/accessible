@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: openDys;
+  src: url(OpenDyslexic3-Regular.ttf);
+}
+
+* {
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+html {
+  background-color: black;
+}
+
+
+body {
+  background-color: wheat;
+}
+
+#myBtn{
+  font-family: openDys;
+  font-size: 1.5rem;
+}
+
+
+#myBtn:hover {
+  background-color: lightseagreen;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: teal;
+  overflow: hidden;
+}
+
+#guidance {
+  margin-top: 50px;
+}
+
+.head {
+  font-family: 'Open Sans', sans-serif;
+  background-color: coral;
+}
+
+.para {
+  font-family: 'Impact', sans-serif;
+  background-color: lightseagreen;
+}
+
+.head2 {
+  font-family: 'Baskerville', serif;
+  background-color: orchid;
+}
+
+.para2 {
+  font-family: 'Times New Roman', serif;
+  background-color: lightpink;
+}
